@@ -18,33 +18,33 @@
     "validate": "npm run type-check && npm run lint"
   },
   "dependencies": {
-    "next": "^12.3.0",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "next": "^13.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "@babel/eslint-plugin": "^7.19.1",
     "@types/node": "^16.11.59",
-    "@types/react": "^17.0.39",
-    "@types/react-dom": "^17.0.11",
+    "@types/react": "^18.0.24",
+    "@types/react-dom": "^18.0.8",
     "@types/styled-jsx": "^3.4.4",
-    "@typescript-eslint/eslint-plugin": "^5.37.0",
-    "@typescript-eslint/parser": "^5.37.0",
-    "autoprefixer": "^10.4.11",
+    "@typescript-eslint/eslint-plugin": "^5.41.0",
+    "@typescript-eslint/parser": "^5.41.0",
+    "autoprefixer": "^10.4.13",
     "cross-env": "^7.0.3",
-    "eslint": "8.23.1",
+    "eslint": "8.26.0",
     "eslint-config-kentcdodds": "^20.4.0",
-    "eslint-config-next": "^12.3.0",
+    "eslint-config-next": "^13.0.0",
     "eslint-config-prettier": "^8.5.0",
-    "eslint-import-resolver-typescript": "^3.5.1",
+    "eslint-import-resolver-typescript": "^3.5.2",
     "eslint-plugin-jsx-a11y": "^6.6.1",
     "eslint-plugin-prettier": "^4.2.1",
-    "eslint-plugin-react": "^7.31.8",
-    "postcss": "^8.4.16",
+    "eslint-plugin-react": "^7.31.10",
+    "postcss": "^8.4.18",
     "prettier": "^2.7.1",
-    "stylelint": "^14.11.0",
+    "stylelint": "^14.14.0",
     "stylelint-config-recommended": "^9.0.0",
-    "tailwindcss": "^3.1.8",
-    "typescript": "^4.8.3"
+    "tailwindcss": "^3.2.1",
+    "typescript": "^4.8.4"
   }
 }
