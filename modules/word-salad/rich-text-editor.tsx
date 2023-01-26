@@ -29,7 +29,9 @@ export function RichTextEditor() {
           <Editable />
         </Slate>
       </div>
-      <div className="mt-4 p-4 rounded-lg border-4 border-dashed bg-gray-200 font-mono">h</div>
+      <pre className="mt-4 p-4 rounded-lg border-4 border-dashed bg-gray-200 font-mono overflow-x-auto">
+        {JSON.stringify(inputValue, null, 2)}
+      </pre>
     </div>
   );
 }
