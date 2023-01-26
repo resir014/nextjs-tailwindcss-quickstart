@@ -1,28 +1,22 @@
-# nextjs-tailwindcss-quickstart
+# slatejs-playground
 
-> Get started on Next.js with Tailwind CSS in seconds.
+> Playing around with SlateJS!
 
-This is an example setup of Next.js building on top of the [official TypeScript example](https://github.com/zeit/next.js/tree/master/examples/with-typescript). It adds the following:
+## Developing
 
-- Simple styling structure with [Tailwind CSS](https://tailwindcss.com/)
-- Basic ESLint and Prettier setup
-- CSS linting with [Stylelint](https://stylelint.io/)
-- TypeScript typechecking as part of `test` script (ready to plug into any CI)
-
-## Deploy your own
-
-Deploy the example using [Vercel](https://vercel.com):
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/resir014/nextjs-tailwindcss-quickstart)
-
-## How to use
-
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
+A nodejs >= 14.0.0 setup with [yarn](https://yarnpkg.com/) is recommended.
 
 ```bash
-npx create-next-app --example https://github.com/resir014/nextjs-tailwindcss-quickstart nextjs-tailwindcss-quickstart-app
-# or
-yarn create next-app --example https://github.com/resir014/nextjs-tailwindcss-quickstart nextjs-tailwindcss-quickstart-app
+# install dependencies
+yarn
+
+# serve with hot reload at localhost:3000
+yarn dev
+
+# build for production
+yarn build
 ```
 
-Deploy it to the cloud with [Vercel](https://vercel.com/import?filter=next.js) ([Documentation](https://nextjs.org/docs/deployment)).
+## Credits
+
+Built with [Next.js](https://nextjs.org/).
