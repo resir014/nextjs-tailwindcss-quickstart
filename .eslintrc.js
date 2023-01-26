@@ -9,7 +9,9 @@ module.exports = {
     'plugin:@next/next/recommended',
   ],
   plugins: ['prettier'],
-  rules: {},
+  rules: {
+    '@next/next/no-img-element': 'off',
+  },
   settings: {
     'import/resolver': {
       typescript: {
